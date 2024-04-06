@@ -8,7 +8,7 @@
 }
 
 .SideBar{
-    background-color:  rgb(143, 34, 34);
+    background-color:  black;
     font-family: 'Fira-sans', sans-serif;
     height: 1200vh;
     transition: transform 0.3s ease-in;
@@ -24,7 +24,7 @@
 }
 .SideBar nav li a {
     text-decoration: none;
-    color:rgb(18, 17, 17);
+    color:red;
 }
 
 .Container{
@@ -32,19 +32,21 @@
 }
 
 .main{
-    background-color: rgb(225, 214, 214);
+    background-color: black;
     text-decoration-color: rgb(241, 132, 23);
     width: 100vw;
-    
+    background-size: 1500px 1300px;
 }
 
 .infocontainer{
-    background-color: rgb(143, 34, 34);
-    height: 80vh;
-    width: 80vw;
-    margin: 147px auto;
+    background-image: url('backkk.jpg');
+    height: 100vh;
+    width: 98vw;
+    margin: 10px auto;
     display: flex;
     justify-content: space-around;
+    background-size: 1520px 900px;
+    color: white;
 }
 
 .devinfo{
@@ -56,6 +58,7 @@
 
 .hello{
     font-size: 85px;
+    color: red;
 }
 .name{
     font-size: 65px;
@@ -70,17 +73,16 @@
     font-family: 'Fira-sans', sans-serif;
     margin-top: 23px;
 }
-.btn{
-    margin-top: 34px;
-}
+
 .btn {
     padding: 9px 14px;
-    color: bisque;
-    background-color: rgb(116, 116, 222);
+    color: white;
+    background-color: red;
     font-weight: bold;
     font-size: 20px;
     border-radius:22px ;
-    margin:0 3px;
+    margin:0 5px;
+    margin-top: 40px;
     cursor: pointer;
 }
 
@@ -88,8 +90,8 @@
     font-size: 17px;
 }
 .btn:hover{
-    background-color: bisque;
-    color: rgb(116, 116, 222);
+    background-color: white;
+    color: red;
 }
 
 .devpic img{
@@ -102,8 +104,13 @@
     padding-top: 144px;
     font-family: 'Fira-sans', sans-serif;
     margin: 0 88px;
-    height: 80vh;
+    height: 100vh;
 }
+
+.mb-3 {
+    color: rgb(255, 255, 255);
+}
+
 .contactform h1{
     font-family: 'Source Code Pro', monospace;
     padding: 12px 0;
@@ -118,12 +125,12 @@
    width: 26vw;
    border-radius: 5px;
    margin: 6px 0 0 0;
-   padding: 3px;
+   padding: 8px;
 }
 
 #emailHelp{
     font-size: 11px;
-    color:rgb(47, 47, 50);
+    color:rgb(255, 255, 255);
     margin: 0 5px;
     padding: 3px 0 0 0;
 }
@@ -137,13 +144,21 @@
     margin: 3px 0;
 }
 
+.form-control {
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 41, 41);
+    
+}
 
 h1{
     font-family: 'Fira-sans', sans-serif;
     margin: 23px;
+    color: red;
+    margin-left: 10px;
 }
 p{
     font-family: 'Source Code Pro', monospace;
+    color: white;
 }
 
 .intro{
@@ -155,6 +170,8 @@ p{
     font-family: 'Fira-sans', sans-serif;
     margin: 23px;
     font-size: 30px;
+    color: red;
+    margin-left: 10px;
 }
 
 .intro p{
@@ -164,10 +181,92 @@ p{
 
 .skillitem{
     font-family: 'Source Code Pro', monospace;
-    display: flex;
     align-items: center;
-    font-weight: 900;
     padding-left: 9px;
+}
+
+.skillitem1{
+    font-family: 'Source Code Pro', monospace;
+    
+    align-items: center;
+    padding-left: 9px;
+}
+
+.skillitem2{
+    font-family: 'Source Code Pro', monospace;
+    
+    align-items: center;
+    padding-left: 9px;
+}
+
+.skillitem3{
+    font-family: 'Source Code Pro', monospace;
+    
+    align-items: center;
+    padding-left: 9px;
+}
+
+.skillitem p {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    width: 900px;
+    height: 20px;
+}
+
+.skillitem1 p{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    width: 900px;
+    height: 20px;
+}
+
+.skillitem2 p{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    width: 900px;
+    height: 20px;
+}
+
+.skillitem3 p{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    width: 900px;
+    height: 20px;
+}
+
+.skillitem img{
+    width: 150px;
+    height: 20vh;
+    margin-left: 1150px;
+    margin-top: -45px;
+    margin-bottom: 10px;
+}
+
+.skillitem1 img{
+    width: 150px;
+    height: 20vh;
+    margin-left: 1150px;
+    margin-top: -45px;
+}
+
+.skillitem2 img{
+    width: 150px;
+    height: 20vh;
+    margin-left: 1150px;
+    margin-top: -45px;
+}
+
+.skillitem3 img{
+    width: 150px;
+    height: 20vh;
+    margin-left: 1150px;
+    margin-top: -45px;
+}
+
+h6 {
+    color: red;
+    font-size: 3ch;
+    margin-top: 5vh;
 }
 
 .skill{
@@ -175,21 +274,6 @@ p{
     height:  15px;
     background-color: red;
     border: 2px solid black;
-}
-
-.hundred{
-    width:265px;
-    background-color: blueviolet;
-}
-
-.fifty{
-    width: 125px;
-    background-color: aqua;
-}
-
-.twentyfive{
-    width: 75px;
-    background-color: yellow;
 }
 
 .hamburger{
@@ -208,7 +292,15 @@ p{
     position: absolute;
 }
 
-
+.project{
+    background-color: red;
+    height: 80vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+    background-size: 1200px 1000px;
+}
 
 .project1 img{
     margin-top: 15px;
@@ -219,8 +311,30 @@ p{
 
 .project1 h3{
     margin-left: -500px;
+   
 }
 
 .project1 p{
     margin-left: -500px;
+}
+
+.Wepro{
+    font-family: 'Source Code Pro', monospace;
+    align-items: center;
+    padding-left: 9px;
+}
+
+.Wepro img{
+    width: 200px;
+    height: 20vh;
+    margin-left: 1150px;
+    margin-top: -45px;
+    margin-bottom: 10px;
+}
+
+.Wepro p {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    width: 900px;
+    height: 20px;
 }
